@@ -6,9 +6,10 @@ import re
 CONFIG = [
     ('darwin_x86.h',   'Darwin_x86',   'darwin_x86_sys.go'),
     ('linux_arm.h',    'Linux_arm',    'linux_arm_sys.go'),
-    ('linux_mips.h',    'Linux_mips',  'linux_mips_sys.go'),
+    ('linux_mips.h',   'Linux_mips',   'linux_mips_sys.go'),
     ('linux_x86.h',    'Linux_x86',    'linux_x86_sys.go'),
     ('linux_x86_64.h', 'Linux_x86_64', 'linux_x86_64_sys.go'),
+    ('netbsd_arm.h',   'NetBSD_arm',   'netbsd_arm_sys.go')
 ]
 TARGET = '../ghost/sys/num/'
 SRC = 'syscalls'
